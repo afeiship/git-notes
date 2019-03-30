@@ -8,7 +8,7 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: 'http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg'
+        href: 'https://avatars2.githubusercontent.com/u/3038631?s=460&v=4'
       }
     ]
   ],
