@@ -15,7 +15,7 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        title: 'Get started',
+        title: 'Tag',
         collapsable: false,
         children: ['/tag/001-basic']
       }
