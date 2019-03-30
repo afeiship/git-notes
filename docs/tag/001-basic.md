@@ -20,7 +20,13 @@ git tag -d v0.1.2-light
 ```
 
 ## push:
-git push origin v0.1.2-light
 
-## all tags to remote:
+```shell
+git push origin v0.1.2-light
+```
+
+## push all tags to remote:
+
+```shell
 git push origin --tags
+```
