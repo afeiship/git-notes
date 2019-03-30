@@ -1,0 +1,19 @@
+{
+  "name": "git-notes",
+  "version": "1.0.0",
+  "description": "Git learning notes.",
+  "homepage": "https://github.com/afeiship/git-notes",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "./deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  }
+}
