@@ -17,7 +17,12 @@ module.exports = {
       {
         title: 'Tag',
         collapsable: false,
-        children: ['/tag/001-basic']
+        children: ['/tag/001-basic.md']
+      },
+      {
+        title: 'Branch',
+        collapsable: false,
+        children: ['/tag/001-clone-from-tag-as-branch.md', '/tag/002-standard-project.md']
       }
     ]
   }
