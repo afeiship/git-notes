@@ -22,7 +22,7 @@ module.exports = {
       {
         title: 'Branch',
         collapsable: false,
-        children: ['/tag/001-clone-from-tag-as-branch.md', '/tag/002-standard-project.md']
+        children: ['/branch/001-clone-from-tag-as-branch.md', '/branch/002-standard-project.md']
       }
     ]
   }
