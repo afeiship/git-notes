@@ -19,7 +19,7 @@ git tag v0.1.2-light
 git tag -d v0.1.2-light
 ```
 
-## push
+## push to remote
 
 ```shell
 git push origin v0.1.2-light
