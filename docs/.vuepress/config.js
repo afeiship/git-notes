@@ -25,7 +25,8 @@ module.exports = {
         children: [
           '/branch/001-clone-from-tag-as-branch.md',
           '/branch/002-standard-project.md',
-          '/branch/003-copy-from-branch.md'
+          '/branch/003-copy-from-branch.md',
+          '/branch/004-standard-release.md'
         ]
       }
     ]
