@@ -11,6 +11,7 @@ git tag -l
 
 ```shell
 git tag v0.1.2-light
+git tag v0.1.2-light -m "add: v0.1.2-light is a ligth update."
 ```
 
 ## delete
