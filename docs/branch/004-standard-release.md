@@ -1,4 +1,4 @@
-# standard-relase
+# standard-release
 
 > 这里给出的是测试回滚的解决方案.
 > 其实正式版的就对应 TAG 来管理，也是同理.
