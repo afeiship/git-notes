@@ -10,3 +10,6 @@ git branch --delete dev
 ```shell
 git push origin --delete dev
 ```
+
+## resources
+- https://www.jianshu.com/p/5068997164cb
