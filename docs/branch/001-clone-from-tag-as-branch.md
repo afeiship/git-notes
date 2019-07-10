@@ -5,6 +5,11 @@ git checkout -b newbranch v1.0
 
 ## eg:
 # git checkout -b dev2.3.1 v2.3.1
+
+# from remote branch
+git checkout -b $BRANCH remotes/origin/$BRANCH;
+
+# eg: git checkout -b feature/test_fe#afei remotes/origin/feature/test_fe#afei;
 ```
 
 ## chinese:
@@ -24,7 +29,6 @@ git checkout -b newbranch v1.0
 ~~~
 3. 可以通过git checkout newbranch 切换到新的分支.
 4. 通过 git push origin newbranch 把本地创建的分支提交到远程仓库.
-
 
 
 
