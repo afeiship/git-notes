@@ -13,4 +13,5 @@ git-flow --version
 
 ## resources
 - https://www.youtube.com/watch?v=zXlta66thZY
+- https://www.youtube.com/watch?v=vlzHSSRhzTU
 - https://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html
