@@ -9,3 +9,12 @@ git-flow init
 git push --set-upstream origin develop
 ```
 ![](https://tva1.sinaimg.cn/large/00831rSTgy1gd3kreb9zhj30vs0c2mzw.jpg)
+
+## show config
+```shell
+git-flow config
+
+code .git/config
+```
+![](https://tva1.sinaimg.cn/large/00831rSTgy1gd3l6br3pmj30y807ajt7.jpg)
+
