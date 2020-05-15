@@ -31,3 +31,8 @@ email = john.smith@companya.net
 name = John Smith
 email = js@companyb.com
 ```
+
+
+## resources
+- https://git-scm.com/docs/git-config
+- http://blog.bennycornelissen.nl.s3-website-eu-west-1.amazonaws.com/post/juggling-multiple-git-identities/
