@@ -24,6 +24,10 @@ git tag -d v0.1.2-light
 
 ```shell
 git push origin v0.1.2-light
+
+# push multiple tags
+git push origin v1.20.0
+git push origin v1.21.0
 ```
 
 ## push all tags to remote
