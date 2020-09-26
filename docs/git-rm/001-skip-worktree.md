@@ -3,6 +3,9 @@
 
 ```shell
 git update-index --skip-worktree
+
+# example
+git update-index --skip-worktree db/shebao_work.sqlite3
 ```
 
 ## valid way
