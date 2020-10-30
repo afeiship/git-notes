@@ -4,6 +4,12 @@
 ## delete local
 ```shell
 git branch --delete dev
+
+# 没有合并的是无法合并的
+git branch -d xx-branch
+
+# 无论怎么样都可以删除
+git branch -D yy-branch
 ```
 
 ## delete remote
