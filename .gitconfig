@@ -1,0 +1,6 @@
+[gitflow "prefix"]
+  feature = aric/feature/
+  release = aric/release/
+  hotfix = aric/hotfix/
+  support = aric/support/
+  versiontag = v
