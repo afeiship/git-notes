@@ -8,15 +8,3 @@
   hotfix = hotfix/
   support = support/
   versiontag = v
-[branch "staging"]
-  remote = origin
-  merge = refs/heads/staging
-  dmb-excluded = true
-[branch "develop"]
-  remote = origin
-  merge = refs/heads/develop
-  dmb-required = true
-[gitflow "branch.feature/shared-app"]
-  base = develop
-[gitflow "branch.feature/aric/release-it"]
-  base = develop
