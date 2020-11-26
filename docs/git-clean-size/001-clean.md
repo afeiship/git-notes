@@ -1,6 +1,6 @@
 # clean
 - https://www.cnblogs.com/ziyue7575/p/45538b0b7dbe1cbbca5e4ca1a90810ca.html
-
+- https://gitee.com/help/articles/4232#article-header2
 
 ## steps
 ```shell
