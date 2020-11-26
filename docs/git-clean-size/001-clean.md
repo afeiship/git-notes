@@ -2,6 +2,37 @@
 - https://www.cnblogs.com/ziyue7575/p/45538b0b7dbe1cbbca5e4ca1a90810ca.html
 - https://gitee.com/help/articles/4232#article-header2
 
+
+## simplify steps
+```shell
+# 1. check
+git count-objects -vH
+
+# 2. pull latest
+git fetch --all
+git pull --all
+
+# 3. check large files
+git rev-list --objects --all | grep "$(git verify-pack -v .git/objects/pack/*.idx | sort -k 3 -n | tail -10 | awk '{print$1}')"
+
+# 4. clean large files
+git filter-branch --force --index-filter 'git rm -rf --cached --ignore-unmatch 文件' --prune-empty --tag-name-filter cat -- --all
+
+# 5. clean gc?
+git for-each-ref --format='delete %(refname)' refs/original | git update-ref --stdin
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git gc --prune=now
+git gc --aggressive --prune=now
+
+# 6. push to orginal
+git push origin --force --all
+git remote prune origin
+
+# 7. recheck
+git count-objects -vH
+```
+
 ## steps
 ```shell
 # 1. 查看仓库大小
